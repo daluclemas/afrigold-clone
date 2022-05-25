@@ -1,0 +1,29 @@
+@media(min-width: 992px){
+  .container{
+    .dashboard-container{
+      header{
+        .header-section{
+         .header-content{
+          justify-content: space-between;
+          .company-logo-container{
+            margin-top: 30px;
+
+            .logo-container{
+              height: auto;
+            }
+           }
+
+           .dashboard-text{
+
+            margin-top: 100px;
+
+            h2{
+              font-size: 3.5rem;
+            }
+           }
+          }
+        }
+      }
+    }
+  }
+}

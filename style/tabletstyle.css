@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  .container .dashboard-container header {
+    min-height: 20vh;
+  }
+  .container .dashboard-container header .header-section {
+    min-height: 20vh;
+  }
+  .container .dashboard-container header .header-section .header-content {
+    width: 80%;
+  }
+  .container .dashboard-container header .header-section .header-content .company-logo-container .logo-container {
+    width: 300px;
+    height: 200px;
+  }
+  .container .dashboard-container header .header-section .header-content .company-logo-container .select-container {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    width: 150px;
+    height: 60px;
+    border-radius: 8px;
+  }
+  .container .dashboard-container header .header-section .header-content .company-logo-container .select-container select {
+    font-size: 18px;
+  }
+  .container .dashboard-container header .header-section .header-content .dashboard-text {
+    margin-top: 20px;
+  }
+  .container .dashboard-container header .header-section .header-content .dashboard-text h2 {
+    font-size: 2.5rem;
+  }
+}
+/*# sourceMappingURL=tabletstyle.css.map */
