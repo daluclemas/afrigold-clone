@@ -181,12 +181,21 @@ html, body {
   }
   .container .dashboard-container header .header-section .header-content .company-logo-container .logo-container {
     height: auto;
+    width: 200px;
+  }
+  .container .dashboard-container header .header-section .header-content .company-logo-container .select-container {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+  }
+  .container .dashboard-container header .header-section .header-content .company-logo-container .select-container select {
+    font-size: 16px;
   }
   .container .dashboard-container header .header-section .header-content .dashboard-text {
-    margin-top: 80px;
+    margin-top: 40px;
   }
   .container .dashboard-container header .header-section .header-content .dashboard-text h2 {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
