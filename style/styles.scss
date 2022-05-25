@@ -26,11 +26,11 @@ html, body{
 }
 
 .container{
-  border: 2px solid green;
+  border: 2px hidden green;
   width: 100%;
 
   .dashboard-container{
-    border: 2px solid red;
+    border: 2px hidden red;
     width: 100%;
     display: flex;
     flex-direction: column;
