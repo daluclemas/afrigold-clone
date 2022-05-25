@@ -171,6 +171,9 @@ html, body {
 }
 
 @media (min-width: 992px) {
+  .container .dashboard-container header .header-section {
+    padding-bottom: 3rem;
+  }
   .container .dashboard-container header .header-section .header-content {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -184,7 +187,7 @@ html, body {
     width: 200px;
   }
   .container .dashboard-container header .header-section .header-content .company-logo-container .select-container {
-    width: 100px;
+    width: 90px;
     height: 40px;
     border-radius: 8px;
   }
@@ -192,10 +195,10 @@ html, body {
     font-size: 16px;
   }
   .container .dashboard-container header .header-section .header-content .dashboard-text {
-    margin-top: 40px;
+    margin-top: 55px;
   }
   .container .dashboard-container header .header-section .header-content .dashboard-text h2 {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
