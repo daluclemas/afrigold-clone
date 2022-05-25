@@ -9,6 +9,15 @@
   }
   .container .dashboard-container header .header-section .header-content .company-logo-container .logo-container {
     height: auto;
+    width: 200px;
+  }
+  .container .dashboard-container header .header-section .header-content .company-logo-container .select-container {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+  }
+  .container .dashboard-container header .header-section .header-content .company-logo-container .select-container select {
+    font-size: 16px;
   }
   .container .dashboard-container header .header-section .header-content .dashboard-text {
     margin-top: 40px;
