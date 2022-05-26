@@ -290,7 +290,7 @@ nav {
 }
 
 .nav-links .fa-caret-down {
-  margin-left: 5px;
+  margin-left: 1px;
   color: white;
   cursor: pointer;
 }
@@ -533,6 +533,9 @@ nav {
   .header-content .dashboard-text h2 {
     font-size: 3.8rem;
   }
+  .navigation {
+    padding-right: 5px;
+  }
   .navigation .navigation-and-user-name {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -560,7 +563,7 @@ nav {
     margin-left: 0;
   }
   .username-and-menu-icon .username p {
-    font-size: 18px;
+    font-size: 14px;
   }
   .username-and-menu-icon .hamburger-icon {
     display: none;
@@ -575,13 +578,15 @@ nav {
             flex-direction: row;
     width: 100%;
     padding: 0 0 0 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .nav-links {
     border: 2px hidden red;
-    font-size: 18px;
     position: relative;
-    margin: 5px 0;
-    font-size: 18px;
+    margin: 0;
+    font-size: 14px;
   }
   .nav-links .dropdown-menu {
     position: absolute;
@@ -614,7 +619,7 @@ nav {
     width: 120px;
   }
   .username-and-menu-icon {
-    width: 10%;
+    width: 50%;
     padding-left: 5px;
   }
   .username-and-menu-icon .username {
