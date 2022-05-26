@@ -30,7 +30,7 @@
   }
   .navigation {
     padding-right: 10px;
-    border: 2px solid green;
+    border: 2px hidden green;
   }
   .navigation .navigation-and-user-name {
     -webkit-box-orient: horizontal;
@@ -40,7 +40,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 2px solid black;
+    border: 2px hidden black;
   }
   .username-and-menu-icon {
     width: 8%;
@@ -85,7 +85,7 @@
   .nav-links {
     border: 2px hidden red;
     position: relative;
-    margin: 0;
+    margin: 0 5px 0 0;
     font-size: 16px;
   }
   .nav-links .dropdown-menu {

@@ -251,6 +251,7 @@ nav {
   margin-top: 20px;
   border: 2px hidden red;
   font-size: 18px;
+  text-align: left;
 
   .fa-caret-down{
     margin-left: 1px;
@@ -263,7 +264,7 @@ nav {
     text: {
       decoration: none;
       transform: capitalize;
-      
+      align: left;
     }
   }
 

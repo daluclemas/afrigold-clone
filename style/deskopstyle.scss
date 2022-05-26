@@ -38,12 +38,12 @@
 
 .navigation {
   padding-right: 10px;
-  border: 2px solid green;
+  border: 2px hidden green;
 
   .navigation-and-user-name {
     flex-direction: row;
     align-items: center;
-    border: 2px solid black;
+    border: 2px hidden black;
   }
 }
 
@@ -87,8 +87,9 @@
 .nav-links{
   border: 2px hidden red;
   position: relative;
-  margin: 0 ;
+  margin: 0 5px 0 0 ;
   font-size: 16px;
+  
 
   .dropdown-menu{
     position: absolute;
