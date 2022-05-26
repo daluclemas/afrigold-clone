@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Nunito:wght@700&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="/style/styles.css">
+    <script src="/app.js" defer></script>
   <title>Dashboard</title>
 </head>
 <body>
@@ -48,7 +49,8 @@
         <section class="navbar-section">
           <div class="avatar-container">
             <div class="avatar">
-              <img src="" alt="avatar">
+              <!-- <img src="" alt="avatar"> -->
+              <div class="img">undefined</div>
             </div>
           </div>
 
@@ -57,7 +59,8 @@
 
               <div class="username-and-menu-icon">
                 <div class="username">
-                  <p>dera lyncia <span><img src="/assets/badge.png" alt="verified"></span></p>
+                  <p>dera lyncia </p>
+                  <div><img src="/assets/badge.png" alt="verified"></div>
                 </div>
 
                 <div class="hamburger-icon">
@@ -70,7 +73,7 @@
               <div class="navigation-menu">
                 <ul class="nav-items">
                   <li class="nav-links"><a href="#">dashboard</a></li>
-                  <li class="nav-links"><a href="#">miner</a> <span>caret</span>
+                  <li class="nav-links"><a href="#">miner</a> <i class="fa-solid fa-caret-down"></i>
                     <div class="dropdown-menu">
                       <div class="dropdown-items">
                         <a href="#">mine engine</a>
@@ -80,7 +83,7 @@
                       </div>
                     </div>
                   </li>
-                  <li class="nav-links"><a href="#">share &amp; earn</a> <span>caret</span>
+                  <li class="nav-links"><a href="#">share &amp; earn</a> <i class="fa-solid fa-caret-down"></i>
                     <div class="dropdown-menu">
                       <div class="dropdown-items">
                         <a href="#">trend posts</a>
@@ -90,7 +93,7 @@
                       </div>
                     </div>
                   </li>
-                  <li class="nav-links"><a href="#"> withdraw</a> <span>caret</span>
+                  <li class="nav-links"><a href="#"> withdraw</a> <i class="fa-solid fa-caret-down"></i>
                     <div class="dropdown-menu">
                       <div class="dropdown-items">
                         <a href="#">withdraw funds</a>
@@ -109,7 +112,7 @@
                     </div>
                   </li>
                   <li class="nav-links"><a href="#">referrals</a></li>
-                  <li class="nav-links"><a href="#">transfer</a> <span>caret</span>
+                  <li class="nav-links"><a href="#">transfer</a> <i class="fa-solid fa-caret-down"></i>
                     <div class="dropdown-menu">
                       <div class="dropdown-items">
                         <a href="#">transfer afg</a>
@@ -120,7 +123,7 @@
                     </div>
                   </li>
                   <li class="nav-links"><a href="#">buy/sell</a></li>
-                  <li class="nav-links"><a href="#">my account</a> <span>caret</span>
+                  <li class="nav-links"><a href="#">my account</a> <i class="fa-solid fa-caret-down"></i>
                     <div class="dropdown-menu">
                       <div class="dropdown-items">
                         <a href="#">profile</a>
@@ -146,17 +149,22 @@
               </div>
             </div>
           </div>
+
         </section>
       </nav>
 
       <section class="cards-container">
         <div class="grid-and-afg-text">
-          <h3>1AFG = ₦10000</h3>
+          <h3 class="afg">1AFG = ₦10000</h3>
 
           <div class="cards-grid">
             <div class="card">
               <div class="card-content">
-                <div class="card-image">font awesome logo</div>
+                <div class="card-image">
+                  <div class="fontawesome-icon">
+                    <i class="fas fa-globe-africa fa"></i>
+                  </div>
+                </div>
 
                 <div class="card-text">
                   <h3>total amount</h3>
@@ -167,7 +175,11 @@
 
             <div class="card">
               <div class="card-content">
-                <div class="card-image">font awesome logo</div>
+                <div class="card-image">
+                  <div class="fontawesome-icon">
+                    <i class="fa-solid fa-code-branch"></i>
+                  </div>
+                </div>
             
                 <div class="card-text">
                   <h3>total amount</h3>
@@ -178,7 +190,11 @@
 
             <div class="card">
               <div class="card-content">
-                <div class="card-image">font awesome logo</div>
+                <div class="card-image">
+                  <div class="fontawesome-icon">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                  </div>
+                </div>
             
                 <div class="card-text">
                   <h3>total amount</h3>
@@ -189,7 +205,11 @@
 
             <div class="card">
               <div class="card-content">
-                <div class="card-image">font awesome logo</div>
+                <div class="card-image">
+                  <div class="fontawesome-icon">
+                    <i class="fa-solid fa-satellite"></i>
+                  </div>
+                </div>
             
                 <div class="card-text">
                   <h3>total amount</h3>
@@ -200,7 +220,7 @@
 
             <div class="card">
               <div class="card-content">
-                <div class="card-image">font awesome logo</div>
+                <div class="card-image"><div class="fontawesome-icon"><i class="fa-solid fa-rocket"></i></div></div>
             
                 <div class="card-text">
                   <h3>total amount</h3>
@@ -211,7 +231,10 @@
 
             <div class="card">
               <div class="card-content">
-                <div class="card-image">font awesome logo</div>
+                <div class="card-image"><div class="fontawesome-icon">
+                  <i class="fa-solid fa-share"></i>
+                 
+                </div></div>
             
                 <div class="card-text">
                   <h3>total amount</h3>
@@ -222,7 +245,9 @@
 
             <div class="card">
               <div class="card-content">
-                <div class="card-image">font awesome logo</div>
+                <div class="card-image"><div class="fontawesome-icon">
+                  <i class="fa-solid fa-fax"></i>
+                </div></div>
             
                 <div class="card-text">
                   <h3>total amount</h3>
@@ -233,7 +258,11 @@
 
             <div class="card">
               <div class="card-content">
-                <div class="card-image">font awesome logo</div>
+                <div class="card-image">
+                  <div class="fontawesome-icon">
+                    <i class="fa-solid fa-gear"></i>
+                  </div>
+                </div>
             
                 <div class="card-text">
                   <h3>total amount</h3>
@@ -308,5 +337,6 @@
     </section>
   </div>
   
+  <script src="https://kit.fontawesome.com/f0e102a91e.js" crossorigin="anonymous"></script>
 </body>
 </html>

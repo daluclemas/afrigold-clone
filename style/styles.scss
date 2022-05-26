@@ -28,101 +28,355 @@ html, body{
 .container{
   border: 2px hidden green;
   width: 100%;
+}
 
-  .dashboard-container{
-    border: 2px hidden red;
+.dashboard-container {
+  border: 2px hidden red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  background-image: url('/assets/header-img.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  .header-section {
+    width: 100%;
+    background-color: $bg-header;
+    padding-bottom: 4rem;
+  }
+}
+
+.header-content {
+  border: 2px hidden green;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  .company-logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .logo-container {
+      border: 2px hidden yellow;
+      width: 150px;
+      height: 80px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain
+      }
+    }
+
+    .select-container {
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      border-radius: 5px;
+      width: 100px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      select {
+        width: 90%;
+        margin: auto;
+        height: 90%;
+        background: transparent;
+        border: none;
+        color: rgba(255, 255, 255, 0.9);
+        outline: none;
+
+
+        option {
+          background-color: white !important;
+          color: black;
+          border-radius: 5px !important;
+
+        }
+
+      }
+    }
+
+
+  }
+
+  .dashboard-text {
+    width: 100%;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+
+    h2 {
+      font-size: 2rem;
+      line-height: 1.5;
+      font-weight: 400;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+
+      text: {
+        align: center;
+        transform: capitalize;
+      }
+    }
+  }
+}
+
+nav {
+  width: 100%;
+  border: 2px hidden blue;
+  margin-top: 30px;
+}
+
+.navbar-section {
+  width: 90%;
+  border: 3px hidden black;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.avatar-container {
+  width: 100%;
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    background-color: $gold-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .img {
+      width: 85%;
+      height: 85%;
+      background-color: rgba(255, 255, 255, 0.6);
+      margin: auto;
+      font-size: 10px;
+    }
+  }
+}
+
+.navigation {
+  width: 100%;
+  background-color: $gold-color;
+
+  .navigation-and-user-name {
     width: 100%;
     display: flex;
     flex-direction: column;
+    
 
-    header{
-      width: 100%;
-      background-image: url('/assets/header-img.jpg');;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+  }
+}
 
-      .header-section{
+.username-and-menu-icon {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: 15px auto;
+
+  .username {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+
+    p {
+
+      text-transform: capitalize;
+      font-size: 18px;
+      color: white;
+      font-weight: 600;
+    }
+
+    div {
+      width: 20px;
+      height: 20px;
+      margin-left: 5px;
+
+      img {
+        height: 100%;
         width: 100%;
-        background-color:$bg-header;
-        padding-bottom: 4rem;
+        object-fit: contain;
 
-        .header-content{
-          border: 2px hidden green;
-          width: 90%;
-          margin: auto;
+      }
+    }
+  }
+
+  .hamburger-icon {
+    width: 40px;
+    cursor: pointer;
+
+    .menu-icon {
+      width: 100%;
+      height: 5px;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.navigation-menu {
+  display: none;
+  width: 95%;
+  margin: 15px auto;
+}
+
+.show{
+  display: block;
+}
+
+.nav-items{
+  border: 2px hidden black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links{
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px hidden red;
+  font-size: 18px;
+
+  .fa-caret-down{
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+  }
+
+  a{
+    color: white;
+    text: {
+      decoration: none;
+      transform: capitalize;
+      
+    }
+  }
+
+  .dropdown-menu{
+    background-color: white;
+    width: 80%;
+    margin: 20px 5px 5px;
+    padding: 10px;
+    border-radius: 6px;
+    display: none;
+
+    .dropdown-items{
+      margin-bottom: 15px;
+      width: 100%;
+
+      a{
+        color: black;
+        
+      }
+    }
+  }
+
+  .show-menu{
+    display: block;
+  }
+}
+
+.cards-container{
+  border:2px hidden red;
+  width: 100%;
+  margin: 30px auto;
+
+  .grid-and-afg-text{
+    border: 2px hidden blue;
+    width: 90%;
+    margin: auto;
+
+    .afg{
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      font-family: 'Nunito', sans-serif;
+    }
+  }
+}
+
+.cards-grid{
+  margin-top:15px;
+  border: 2px hidden green;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+
+  .card{
+    width: 100%;
+    background-color: $Card-bg;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px rgba(57, 64, 90, 0.9);
+
+    .card-content{
+      width: 90%;
+      margin: auto;
+      display: flex;
+
+      .card-image{
+        width: 70%;
+        height: 130px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .fontawesome-icon{
+          
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          border: 1px solid $icon-color;
           display: flex;
-          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: $icon-bg;
 
-          .company-logo-container{
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-           
-
-            .logo-container{
-              border: 2px hidden yellow;
-              width: 150px;
-              height: 80px;
-
-              img{
-                width: 100%;
-                height: 100%;
-                object-fit: contain
-              }
-            }
-
-            .select-container{
-              border: 2px solid rgba(255, 255, 255, 0.1);
-              border-radius: 5px;
-              width: 100px;
-              height:40px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              
-              select{
-                width: 90%;
-                margin: auto;
-                height: 90%;
-                background: transparent;
-                border: none;
-                color: rgba(255,255,255,0.9);
-                outline: none;
-                
-
-                option{
-                  background-color: white !important;
-                  color: black ;
-                  border-radius: 5px !important;
-                  
-                }
-
-              }
-            }
-
-            
-          }
-
-          .dashboard-text{
-            width: 100%;
-            text-align: center;
-            font-family: 'Nunito',sans-serif;
-
-            h2{
-              font-size: 2rem;
-              line-height: 1.5;
-              font-weight: 400;
-              color: white;
-              text: {
-                align: center;
-                transform: capitalize;
-              }
-            }
+          svg{
+           color:$icon-color;
+           font-size: 50px;
           }
         }
       }
+
+      .card-text{
+        width: 100%;
+        color: white;
+        border: 1px hidden white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Nunito', sans-serif;
+
+        h3{
+          margin-bottom: 10px;
+          text-transform: capitalize;
+          font-size: 1.7rem;
+        }
+
+        h4{
+          margin-bottom: 10px;
+          text-transform: capitalize;
+          font-size: 1.34rem;
+        }
+      }
+
     }
   }
 }

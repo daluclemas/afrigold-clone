@@ -1,31 +1,66 @@
 @media (min-width: 768px) {
-  .container .dashboard-container header {
+  header {
     min-height: 20vh;
   }
-  .container .dashboard-container header .header-section {
+  header .header-section {
     min-height: 20vh;
   }
-  .container .dashboard-container header .header-section .header-content {
-    width: 80%;
+  .header-content {
+    width: 85%;
   }
-  .container .dashboard-container header .header-section .header-content .company-logo-container .logo-container {
+  .header-content .company-logo-container .logo-container {
     width: 300px;
     height: 200px;
   }
-  .container .dashboard-container header .header-section .header-content .company-logo-container .select-container {
+  .header-content .company-logo-container .select-container {
     border: 2px solid rgba(255, 255, 255, 0.2);
     width: 150px;
     height: 60px;
     border-radius: 8px;
   }
-  .container .dashboard-container header .header-section .header-content .company-logo-container .select-container select {
+  .header-content .company-logo-container .select-container select {
     font-size: 18px;
   }
-  .container .dashboard-container header .header-section .header-content .dashboard-text {
+  .header-content .dashboard-text {
     margin-top: 20px;
   }
-  .container .dashboard-container header .header-section .header-content .dashboard-text h2 {
+  .header-content .dashboard-text h2 {
     font-size: 2.5rem;
+  }
+  .navbar-section {
+    width: 85%;
+  }
+  .avatar-container .avatar {
+    width: 130px;
+    height: 130px;
+  }
+  .nav-links {
+    font-size: 24px;
+  }
+  .nav-links .dropdown-menu {
+    width: 90%;
+  }
+  .cards-container .grid-and-afg-text {
+    width: 85%;
+  }
+  .cards-grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+  }
+  .cards-grid .card {
+    width: 95%;
+    margin-bottom: 25px;
+  }
+  .cards-grid .card .card-content .card-image {
+    height: 180px;
+  }
+  .cards-grid .card .card-content .card-image .fontawesome-icon {
+    width: 100px;
+    height: 100px;
+  }
+  .cards-grid .card .card-content .card-image .fontawesome-icon svg {
+    font-size: 65px;
   }
 }
 /*# sourceMappingURL=tabletstyle.css.map */

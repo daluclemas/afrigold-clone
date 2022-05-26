@@ -1,47 +1,97 @@
 @media(min-width: 768px){
-  .container{
-    .dashboard-container{
 
-      header{
-        min-height: 20vh;
+header {
+  min-height: 20vh;
 
-        .header-section{
-         min-height: 20vh;
+  .header-section {
+    min-height: 20vh;
+  }
+}
 
-         .header-content{
+.header-content {
 
-          width: 80%;
+  width: 85%;
 
-          .company-logo-container{
+  .company-logo-container {
 
-            .logo-container{
+    .logo-container {
 
-              width: 300px;
-              height: 200px;
-            }
+      width: 300px;
+      height: 200px;
+    }
 
-            .select-container{
-              border: 2px solid rgba(255, 255, 255, 0.2);
-              width: 150px;
-              height: 60px;
-              border-radius: 8px;
-             
-              select{
-                font-size: 18px;
-              }
-            }
-           }
+    .select-container {
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      width: 150px;
+      height: 60px;
+      border-radius: 8px;
 
-           .dashboard-text{
-             margin-top: 20px;
+      select {
+        font-size: 18px;
+      }
+    }
+  }
 
-             h2{
-              font-size: 2.5rem;
-             }
-           }
-         }
+  .dashboard-text {
+    margin-top: 20px;
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.navbar-section {
+  width: 85%;
+}
+
+.avatar-container {
+
+  .avatar {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+.nav-links {
+  font-size: 24px;
+
+  .dropdown-menu {
+    width: 90%;
+  }
+}
+
+.cards-container {
+
+  .grid-and-afg-text {
+    width: 85%;
+  }
+}
+
+.cards-grid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 30px;
+
+  .card{
+    width: 95%;
+    margin-bottom: 25px;
+
+    .card-content{
+      .card-image{
+        height: 180px;
+
+        .fontawesome-icon{
+          width: 100px;
+          height: 100px;
+
+          svg{
+            font-size: 65px;
+          }
         }
       }
     }
   }
+}
+
+
 }

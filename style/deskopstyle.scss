@@ -1,41 +1,137 @@
 @media(min-width: 992px){
-  .container{
-    .dashboard-container{
-      header{
-        .header-section{
-          padding-bottom: 3rem;
-         .header-content{
-          justify-content: space-between;
-          .company-logo-container{
-            margin-top: 30px;
 
-            .logo-container{
-              height: auto;
-              width: 200px;
-            }
+.header-section {
+  padding-bottom: 3rem;
+}
 
-            .select-container{
-              width: 90px;
-              height: 40px;
-              border-radius: 5px;
-             
-              select{
-                font-size: 14px;
-              }
-            }
-           }
+.header-content {
+  justify-content: space-between;
 
-           .dashboard-text{
+  .company-logo-container {
+    margin-top: 30px;
 
-            margin-top: 70px;
+    .logo-container {
+      height: auto;
+      width: 200px;
+    }
 
-            h2{
-              font-size: 3.8rem;
-            }
-           }
-          }
-        }
+    .select-container {
+      width: 90px;
+      height: 40px;
+      border-radius: 5px;
+
+      select {
+        font-size: 14px;
       }
     }
   }
+
+  .dashboard-text {
+
+    margin-top: 70px;
+
+    h2 {
+      font-size: 3.8rem;
+    }
+  }
+}
+
+.navigation {
+  .navigation-and-user-name {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.username-and-menu-icon {
+  width: 8%;
+  margin: 0 0;
+  border: 2px hidden green;
+
+  .username {
+   flex-direction: column;
+   align-items: flex-start;
+   div{
+     margin-left: 0;
+   }
+
+    p {
+      font-size: 18px;
+    }
+
+    
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+}
+
+.navigation-menu {
+  display: block;
+}
+
+.nav-items{
+  flex-direction: row;
+  width: 100%;
+  padding: 0 0 0 5px;
+}
+
+.nav-links{
+  border: 2px hidden red;
+  font-size: 18px;
+  position: relative;
+  margin: 5px 0 ;
+  font-size: 18px;
+
+  .dropdown-menu{
+    position: absolute;
+    border: 1px hidden rgba(0,0,0,0.5);
+    width: 200px;
+  }
+}
+
+.cards-container {
+  .grid-and-afg-text {
+    .afg {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.cards-grid {
+  grid-template-columns: repeat(3, 1fr);
+
+  .card{
+    width: 100%;
+  }
+}
+}
+
+@media(min-width: 1200px){
+  .navbar-section{
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .avatar-container{
+    width: 120px;
+  }
+
+  .username-and-menu-icon {
+
+    width: 10%;
+    padding-left: 5px;
+
+    .username {
+      flex-direction: row;
+      align-items: center;
+      
+    }
+  }
+
+  .navigation{
+    padding-left: 15px;
+  }
+
 }
