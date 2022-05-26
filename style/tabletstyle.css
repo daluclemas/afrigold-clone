@@ -65,31 +65,31 @@
   .quick-links {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 35px;
+    grid-column-gap: 15px;
   }
   .quick-links .about-us h3 {
     font-size: 24px;
   }
   .quick-links .about-us p {
-    font-size: 16px;
+    font-size: 15px;
   }
   .quick-links .useful-links h3 {
     font-size: 24px;
   }
   .quick-links .useful-links ul li a {
-    font-size: 16px;
+    font-size: 15px;
   }
   .quick-links .quick-link h3 {
     font-size: 24px;
   }
   .quick-links .quick-link ul li a {
-    font-size: 16px;
+    font-size: 15px;
   }
   .quick-links .contact-info h3 {
     font-size: 24px;
   }
   .quick-links .contact-info ul li a {
-    font-size: 16px;
+    font-size: 15px;
   }
   .socials {
     width: 100%;
