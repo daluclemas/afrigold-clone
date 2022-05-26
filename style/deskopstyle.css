@@ -29,7 +29,7 @@
     font-size: 3.8rem;
   }
   .navigation {
-    padding-right: 5px;
+    padding-right: 10px;
   }
   .navigation .navigation-and-user-name {
     -webkit-box-orient: horizontal;
@@ -58,13 +58,16 @@
     margin-left: 0;
   }
   .username-and-menu-icon .username p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .username-and-menu-icon .hamburger-icon {
     display: none;
   }
   .navigation-menu {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
   }
   .nav-items {
     -webkit-box-orient: horizontal;
@@ -81,7 +84,7 @@
     border: 2px hidden red;
     position: relative;
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
   }
   .nav-links .dropdown-menu {
     position: absolute;
