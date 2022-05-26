@@ -30,6 +30,7 @@
   }
   .navigation {
     padding-right: 10px;
+    border: 2px solid green;
   }
   .navigation .navigation-and-user-name {
     -webkit-box-orient: horizontal;
@@ -39,6 +40,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    border: 2px solid black;
   }
   .username-and-menu-icon {
     width: 8%;
@@ -55,7 +57,7 @@
             align-items: flex-start;
   }
   .username-and-menu-icon .username div {
-    margin-left: 0;
+    margin-left: 3px;
   }
   .username-and-menu-icon .username p {
     font-size: 16px;
@@ -117,7 +119,8 @@
     width: 120px;
   }
   .username-and-menu-icon {
-    width: 50%;
+    border: 2px hidden blue;
+    width: 20%;
     padding-left: 5px;
   }
   .username-and-menu-icon .username {
