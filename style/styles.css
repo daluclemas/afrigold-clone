@@ -445,7 +445,7 @@ nav {
     min-height: 20vh;
   }
   .header-content {
-    width: 85%;
+    width: 90%;
   }
   .header-content .company-logo-container .logo-container {
     width: 300px;
@@ -467,7 +467,7 @@ nav {
     font-size: 2.5rem;
   }
   .navbar-section {
-    width: 85%;
+    width: 90%;
   }
   .avatar-container .avatar {
     width: 130px;
@@ -480,7 +480,7 @@ nav {
     width: 90%;
   }
   .cards-container .grid-and-afg-text {
-    width: 85%;
+    width: 90%;
   }
   .cards-grid {
     -ms-grid-columns: (1fr)[2];
