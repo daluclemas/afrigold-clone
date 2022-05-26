@@ -382,5 +382,254 @@ nav {
   }
 }
 
+footer{
+  border: 1px hidden blue;
+  margin-top: 20px;
+  width: 100%;
+  background-color: $Card-bg;
+  padding-top: 30px;
+}
+
+.footer-contents{
+  width: 100%;
+  padding: 20px 0;
+  border: 2px hidden red;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.quick-links{
+
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+  .about-us{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 20px;
+
+    h3, p{
+      line-height: 1.5;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    h3::first-letter, p::first-letter{
+      text-transform: uppercase
+    }
+
+    h3{
+      font-size: 22px;
+    }
+
+    p{
+      font-size: 16px;
+    }
+  }
+
+  .useful-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 20px;
+
+      h3{
+        line-height: 1.5;
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 22px;
+      }
+    
+      h3::first-letter {
+        text-transform: uppercase
+      }
+
+      ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li{
+          margin-bottom: 15px;
+
+          a{
+            color: white;
+            text: {
+              decoration: none;
+              transform: capitalize;
+            }
+
+            
+          }
+        }
+
+      }
+
+  }
+
+  .quick-link{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 20px;
+
+      h3{
+        line-height: 1.5;
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 22px;
+      }
+    
+      h3::first-letter {
+        text-transform: uppercase
+      }
+
+      ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li{
+          margin-bottom: 15px;
+
+          a{
+            color: white;
+            text: {
+              decoration: none;
+              transform: capitalize;
+            }
+
+            
+          }
+        }
+
+      }
+  }
+
+  .contact-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 20px;
+
+      h3{
+        line-height: 1.5;
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 22px;
+      }
+    
+      h3::first-letter {
+        text-transform: uppercase
+      }
+
+      ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li{
+          margin-bottom: 15px;
+          
+
+          a{
+            color: white;
+            text: {
+              decoration: none;
+              transform: capitalize;
+            }
+            
+            
+          }
+        }
+
+      }
+
+  }
+
+}
+
+.socials{
+  width: 100%;
+  margin-top: 20px ;
+
+  ul{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    li{
+
+      background-color: $gold-color;
+      margin : 10px 8px;
+      width: 40px;
+      height: 40px;
+      transform: rotate(45deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.5s linear;
+
+      &:hover{
+        background-color: white;
+      }
+
+      &:hover a{
+        color: $gold-color;
+      }
+
+      a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        transform: rotate(-45deg);
+
+        svg{
+          // font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.line-through{
+  width: 100%;
+  margin: 20px 0;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.copyright{
+  width: 100%;
+  text: {
+    transform: uppercase;
+    align: center;
+  }
+
+  font-size: 16px;
+  color: white;
+}
+
 @import './tabletstyle.scss';
 @import './deskopstyle.scss';

@@ -93,5 +93,93 @@ header {
   }
 }
 
+.quick-links {
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 35px;
+
+  .about-us{
+
+    h3{
+      font-size: 28px;
+    }
+
+    p{
+      font-size: 18px;
+    }
+  }
+
+  .useful-links{
+
+    h3{
+      font-size: 28px;
+    }
+
+    ul {
+      li{
+        a{
+          font-size: 18px;
+        }
+      }
+    }
+
+  }
+
+  .quick-link{
+
+    h3{
+      font-size: 28px;
+    }
+
+    ul {
+      li{
+        a{
+          font-size: 18px;
+        }
+      }
+    }
+
+  }
+
+  .contact-info{
+
+    h3{
+      font-size: 28px;
+    }
+
+    ul {
+      li{
+        a{
+          font-size: 18px;
+        }
+      }
+    }
+
+  }
+}
+
+.socials {
+  width: 100%;
+  margin-top: 20px;
+
+  ul {
+
+    li {
+      margin: 10px 15px;
+      width: 70px;
+      height: 70px;
+
+      a {
+        svg {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.copyright{
+  font-size: 18px;
+}
 
 }

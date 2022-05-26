@@ -62,5 +62,49 @@
   .cards-grid .card .card-content .card-image .fontawesome-icon svg {
     font-size: 65px;
   }
+  .quick-links {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+  }
+  .quick-links .about-us h3 {
+    font-size: 28px;
+  }
+  .quick-links .about-us p {
+    font-size: 18px;
+  }
+  .quick-links .useful-links h3 {
+    font-size: 28px;
+  }
+  .quick-links .useful-links ul li a {
+    font-size: 18px;
+  }
+  .quick-links .quick-link h3 {
+    font-size: 28px;
+  }
+  .quick-links .quick-link ul li a {
+    font-size: 18px;
+  }
+  .quick-links .contact-info h3 {
+    font-size: 28px;
+  }
+  .quick-links .contact-info ul li a {
+    font-size: 18px;
+  }
+  .socials {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .socials ul li {
+    margin: 10px 15px;
+    width: 70px;
+    height: 70px;
+  }
+  .socials ul li a svg {
+    font-size: 20px;
+  }
+  .copyright {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=tabletstyle.css.map */

@@ -103,6 +103,10 @@
   .cards-grid .card {
     width: 100%;
   }
+  .quick-links {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media (min-width: 1200px) {
