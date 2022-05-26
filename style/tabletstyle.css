@@ -68,28 +68,28 @@
     grid-column-gap: 35px;
   }
   .quick-links .about-us h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .quick-links .about-us p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .quick-links .useful-links h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .quick-links .useful-links ul li a {
-    font-size: 18px;
+    font-size: 16px;
   }
   .quick-links .quick-link h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .quick-links .quick-link ul li a {
-    font-size: 18px;
+    font-size: 16px;
   }
   .quick-links .contact-info h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .quick-links .contact-info ul li a {
-    font-size: 18px;
+    font-size: 16px;
   }
   .socials {
     width: 100%;
